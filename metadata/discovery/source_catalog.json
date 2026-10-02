@@ -1,0 +1,34 @@
+{
+  "group": "catalog_and_reference_sources",
+  "purpose": "Records (a) which catalogs were searched during discovery and (b) NON-HuggingFace resources referenced by discovery. Reference resources are URL-verified but are NOT candidate training datasets.",
+  "catalogs_searched": [
+    {"name": "Hugging Face Datasets API", "url": "https://huggingface.co/api/datasets", "method": "REST: /api/datasets/<id> (metadata) and /api/datasets?search=<q> (discovery)", "used_for": "primary discovery + machine-readable license/language/size verification"},
+    {"name": "Hugging Face dataset cards (raw README)", "url": "https://huggingface.co/datasets", "method": "raw README.md fetch for intended-use / provenance prose", "used_for": "intended-use and provenance evidence"},
+    {"name": "GitHub", "url": "https://github.com", "method": "repository search via discovery queries + HTTP reachability of cited repos", "used_for": "official dataset repositories and reference implementations"},
+    {"name": "Papers With Code", "url": "https://paperswithcode.com/datasets", "method": "linked from HF cards (paperswithcode_id field)", "used_for": "paper/dataset cross-referencing"},
+    {"name": "arXiv", "url": "https://arxiv.org", "method": "citation links from dataset cards (arXiv IDs recorded as paper_url)", "used_for": "provenance and dataset lineage"},
+    {"name": "Kaggle", "url": "https://www.kaggle.com/datasets", "method": "manual/notable benchmark mirrors", "used_for": "secondary mirrors only; primary source preferred"},
+    {"name": "Google Dataset Search", "url": "https://datasetsearch.research.google.com/", "method": "not automated in this pass", "used_for": "planned expansion"},
+    {"name": "Zenodo", "url": "https://zenodo.org", "method": "not automated in this pass", "used_for": "planned expansion (research artifacts)"},
+    {"name": "OpenML", "url": "https://www.openml.org", "method": "not automated in this pass", "used_for": "planned expansion (tabular/classification)"},
+    {"name": "UCI ML Repository", "url": "https://archive.ics.uci.edu", "method": "not automated in this pass", "used_for": "planned expansion"},
+    {"name": "Harvard Dataverse", "url": "https://dataverse.harvard.edu", "method": "not automated in this pass", "used_for": "planned expansion"},
+    {"name": "Figshare", "url": "https://figshare.com", "method": "not automated in this pass", "used_for": "planned expansion"},
+    {"name": "ACL Anthology", "url": "https://aclanthology.org", "method": "citation links from dataset cards", "used_for": "paper provenance"},
+    {"name": "Microsoft REDSTONE (data-source methodology)", "url": "https://github.com/microsoft/redstone", "method": "methodology review (large-scale quality filtering), not raw-data ingestion", "used_for": "filtering pipeline inspiration"}
+  ],
+  "reference_resources": [
+    {"id":"ref_redstone","name":"Microsoft REDSTONE","kind":"methodology_repository","url":"https://github.com/microsoft/redstone","organization":"Microsoft","notes":"Large-scale data-quality filtering methodology. Reviewed for pipeline design (quality scoring, filtering stages); NOT a training dataset, no raw text is taken from it."},
+    {"id":"ref_swebench_site","name":"SWE-bench official site","kind":"official_website","url":"https://www.swebench.com/","organization":"Princeton NLP","notes":"Official leaderboard/entry point for the SWE-bench family."},
+    {"id":"ref_livecodebench_site","name":"LiveCodeBench official site","kind":"official_website","url":"https://livecodebench.github.io/","organization":"LiveCodeBench team","notes":"Official project site for LiveCodeBench."},
+    {"id":"ref_squad_explorer","name":"SQuAD Explorer","kind":"official_website","url":"https://rajpurkar.github.io/SQuAD-explorer/","organization":"Stanford NLP","notes":"Official SQuAD browser (v1.1 + v2.0)."},
+    {"id":"ref_glue","name":"GLUE Benchmark","kind":"official_website","url":"https://gluebenchmark.com/","organization":"NYU / DeepMind","notes":"Official GLUE leaderboard and task definitions."},
+    {"id":"ref_superglue","name":"SuperGLUE Benchmark","kind":"official_website","url":"https://super.gluebenchmark.com/","organization":"NYU / DeepMind / AI2","notes":"Official SuperGLUE leaderboard and task definitions."},
+    {"id":"ref_belebele_repo","name":"Belebele repository","kind":"official_repository","url":"https://github.com/facebookresearch/belebele","organization":"Meta AI (FAIR)","notes":"Official Belebele code/paper entry point. Confirms test-set intent."},
+    {"id":"ref_flores_repo","name":"FLORES repository","kind":"official_repository","url":"https://github.com/facebookresearch/flores","organization":"Meta AI (FAIR)","notes":"Official FLORES-200 repository."},
+    {"id":"ref_xtreme_repo","name":"XTREME repository","kind":"official_repository","url":"https://github.com/google-research/xtreme","organization":"Google Research","notes":"Official XTREME benchmark repository (index into component datasets)."},
+    {"id":"ref_vlsp","name":"VLSP official portal","kind":"official_website","url":"https://vlsp.org.vn/","organization":"VLSP","notes":"Vietnamese Language and Speech Processing shared-task portal. Dataset access usually requires registration => license/eligibility audit before use."},
+    {"id":"ref_vmlu_site","name":"VMLU official site","kind":"official_website","url":"https://vmlu.ai/","organization":"VMLU community","notes":"Official Vietnamese MMLU-style benchmark portal."},
+    {"id":"ref_bioasq","name":"BioASQ challenge","kind":"official_website","url":"http://bioasq.org/","organization":"BioASQ","notes":"Official BioASQ biomedical QA challenge site; participation terms govern the data."}
+  ]
+}

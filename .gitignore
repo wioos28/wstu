@@ -1,0 +1,33 @@
+# ==== WSTU Dataset repository ====
+# This repo holds DATASET artifacts only (no models, no servers, no training code).
+
+# Raw downloads (never commit raw corpora; they are re-downloadable from verified sources)
+data/raw/
+data/interim/
+data/*.tmp
+
+# Large generated artifacts
+*.parquet
+*.arrow
+*.zip
+*.gz
+*.jsonl.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local scratch
+tmp/
+.cache/
+*.log
+
+# Editable local overrides
+.env
+.env.*

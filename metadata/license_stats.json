@@ -1,0 +1,42 @@
+{
+  "generated_by": "scripts/discovery/build_registry.py",
+  "by_license": {
+    "unknown": 48,
+    "mit": 33,
+    "apache-2.0": 28,
+    "cc-by-4.0": 20,
+    "cc-by-sa-4.0": 18,
+    "other": 15,
+    "cc-by-nc-4.0": 7,
+    "cc": 3,
+    "cc-by-sa-3.0": 3,
+    "afl-3.0": 2,
+    "cc-by-nc-3.0": 1,
+    "cc-by-nc-sa-2.0": 1,
+    "gpl-3.0": 1
+  },
+  "by_license_class": {
+    "permissive": 105,
+    "unknown": 66,
+    "noncommercial": 9
+  },
+  "by_commercial_use": {
+    "yes": 105,
+    "unknown": 66,
+    "no": 9
+  },
+  "by_status": {
+    "verified": 66,
+    "evaluation_only": 33,
+    "legal_review": 72,
+    "future_candidate": 6,
+    "unknown": 3
+  },
+  "by_training_allowed": {
+    "yes": 66,
+    "evaluation_only": 33,
+    "legal_review": 72,
+    "no": 6,
+    "unknown": 3
+  }
+}

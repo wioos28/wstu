@@ -1,0 +1,501 @@
+{
+  "generated_by": "scripts/discovery/verify_sources.py",
+  "checked_at": "2026-10-02T15:18:41Z",
+  "note": "Reachability evidence for every declared URL. A URL that is not reachable is treated as unverified and must not be used as an official link.",
+  "by_candidate": {
+    "swe_bench_full": {
+      "official_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:17Z"
+      },
+      "github_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:20Z"
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:20Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "swe_bench_live": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "multi_swe_bench": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "swe_smith_py": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "stack_dedup": {
+      "official_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "stack_smol": {
+      "official_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "ultrafeedback_cleaned": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "xlam_parsed": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "mmlu_no_train": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "mmlu_redux": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "mmlu_greek": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "flores_101": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "agieval_aqua_rat": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "agieval_gaokao_mathqa": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "agieval_logiqa_en": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "medqa_hf_mirror": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "openbookqa_es": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "openbookqa_ca": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:21Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "sangraha": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "indicvoices": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "iitb_indic_mono": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "coqa_gen2mc": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": false
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "pubmedqa_bigbio": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:22Z"
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:22Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    },
+    "tydiqa_goldp": {
+      "official_url": {
+        "declared": false
+      },
+      "github_url": {
+        "declared": false
+      },
+      "paper_url": {
+        "declared": true,
+        "http_status": 200,
+        "reachable": true,
+        "error": null,
+        "checked_at": "2026-10-02T15:18:22Z"
+      },
+      "license_url": {
+        "declared": false
+      }
+    }
+  },
+  "by_reference": {
+    "ref_redstone": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:22Z"
+    },
+    "ref_swebench_site": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:17Z"
+    },
+    "ref_livecodebench_site": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:23Z"
+    },
+    "ref_squad_explorer": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:23Z"
+    },
+    "ref_glue": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:25Z"
+    },
+    "ref_superglue": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:26Z"
+    },
+    "ref_belebele_repo": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:30Z"
+    },
+    "ref_flores_repo": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:33Z"
+    },
+    "ref_xtreme_repo": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:36Z"
+    },
+    "ref_vlsp": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:36Z"
+    },
+    "ref_vmlu_site": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:36Z"
+    },
+    "ref_bioasq": {
+      "declared": true,
+      "http_status": 200,
+      "reachable": true,
+      "error": null,
+      "checked_at": "2026-10-02T15:18:41Z"
+    }
+  }
+}

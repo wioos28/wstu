@@ -1,0 +1,32 @@
+{
+  "generated_by": "scripts/discovery/build_registry.py",
+  "note": "sample_count values are bucket-midpoint estimates unless source gave an exact count.",
+  "by_domain_dataset_count": {
+    "coding": 25,
+    "multilingual": 23,
+    "mathematics": 22,
+    "low_resource": 21,
+    "qa": 15,
+    "decision": 13,
+    "logic": 13,
+    "science": 13,
+    "vietnamese": 11,
+    "general_knowledge": 8,
+    "language": 8,
+    "multimodal": 8
+  },
+  "by_domain_estimated_samples": {
+    "multilingual": 1002156000,
+    "mathematics": 56211000,
+    "low_resource": 6221500,
+    "language": 5200000,
+    "qa": 1805000,
+    "science": 1115000,
+    "decision": 755000,
+    "coding": 752000,
+    "multimodal": 155000,
+    "general_knowledge": 110500,
+    "vietnamese": 100000,
+    "logic": 10500
+  }
+}

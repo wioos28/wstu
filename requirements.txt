@@ -1,0 +1,12 @@
+# WSTU Dataset repository - dataset processing dependencies ONLY.
+# No model training / inference / serving dependencies are permitted here.
+#
+# Discovery + verification (scripts/discovery) use only the Python standard library
+# (urllib + json) so that registry generation is reproducible without third-party deps.
+
+# === Later pipeline phases (download / normalize / dedup / validate / build) ===
+datasets>=2.19.0        # streaming download of verified sources
+huggingface_hub>=0.23.0 # revision pinning for provenance
+pyarrow>=15.0.0         # parquet/jsonl IO
+tqdm>=4.66.0            # progress reporting
+regex>=2024.5.0         # Unicode-aware normalization / language-aware tokenization
